@@ -204,7 +204,7 @@
             <strong>"From syllabus to exams, AI agents build it for you."</strong>  
             As professors and instructors, you spend countless hours drafting syllabi, slides, and assessments.  
             This process is necessary but often exhausting, and many of you have limited support from instructional designers or teaching assistants.  
-            <strong>Instructional Agents are here to help: automating routine tasks, aligning materials with your teaching goals</strong>, and giving you more time to focus on what matters most: <b>teaching and mentoring your students</b>.
+            <strong>Instructional Agents are here to help: automating routine tasks, aligning materials with your teaching goals, and giving you more time to focus on what matters most: <b>teaching and mentoring your students</strong>.
           </p>
         </div>
       </div>
@@ -253,17 +253,37 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">How should we evaluate the quality of AI-generated instructional materials? How do human evaluations compare to LLM-based automated assessments?</h2>
+        <h2 class="title is-3">How effective are Instructional Agents?</h2>
         <div class="content has-text-justified">
           <p>
-            (RQ1) Quality evaluation of generated instructional materials across different model backends with their costs and success rates.
+            <strong>Instructional Agents consistently reduce workload while preserving quality.</strong>  
+            In our evaluation across five computer science courses, we compared four operational modes 
+            (Autonomous, Catalog-Guided, Feedback-Guided, and Full Co-Pilot) and measured quality across 
+            six instructional materials (Learning Objectives, Syllabus, Assessments, Final Slides, 
+            Slide Scripts, and Instructional Package).  
+          </p>
+          <p>
+            Human reviewers found that <strong>greater collaboration leads to higher quality</strong>.  
+            Full Co-Pilot mode achieved the best scores, while autonomous mode offered speed with lower effort.  
+            Across all modes, generated materials reached an acceptable quality level, showing that 
+            Instructional Agents can <b>save time, cut cost, and support scalable course design</b>.
           </p>
         </div>
-        <img src="./static/images/RQ1.png"
-             class="interpolation-image"
-             alt="Descriptive text about the image"
-             style="max-width: 100%; padding-bottom: 50px; height: auto;"
-        >
+
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <embed src="./static/pdfs/radar-hua.pdf"
+                  type="application/pdf"
+                  width="100%" height="500px" />
+          </div>
+          <div class="column is-half">
+            <embed src="./static/pdfs/materials_boxplot_hua.pdf"
+                  type="application/pdf"
+                  width="100%" height="500px" />
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -274,15 +294,23 @@
     <div class="container is-max-desktop">
     <div class="columns is-centered">`
       <div class="column is-full-width">
-        <h2 class="title is-3">How do different operational modes (Autonomous, Catalog-Guided, Feedback-Guided, Full Co-Pilot) affect instructional quality and instructor workload?</h2>
+        <h2 class="title is-3">Which model works best?</h2>
 
         <div class="content has-text-justified">
           <p>
-            (RQ2) Human evaluation on instructional materials across operational modes.
+            We tested <strong>gpt-4o</strong>, <strong>gpt-4o-mini</strong>, and <strong>o1-preview</strong> 
+            as backends for Instructional Agents.  
+            <b>All three models produced high-quality instructional materials</b> across five courses, 
+            with no significant differences in reviewer scores.  
+          </p>
+          <p>
+            <strong>gpt-4o-mini emerged as the best balance</strong>: it achieved quality on par with 
+            larger models while offering the <b>lowest cost and fastest runtime</b>.  
+            This makes it the <em>default choice</em> for scalable deployment.  
           </p>
         </div>
 
-        <img src="./static/images/RQ2.png"
+        <img src="./static/images/RQ1.png"
              class="interpolation-image"
              alt="Descriptive text about the image"
              style="max-width: 100%; padding-bottom: 50px; height: auto;"
@@ -301,7 +329,12 @@
 
         <div class="content has-text-justified">
           <p>
-            (RQ3) Runtime and cost analysis across operational modes.
+            Instructional Agents show clear trade-offs between <strong>speed, human effort, and cost</strong>.  
+            <b>Autonomous Mode</b> is the most efficient (2.23 hrs, $0.22, no human time), 
+            while <b>Full Co-Pilot Mode</b> requires the most resources (4.73 hrs, $0.36, 30–45 mins human time) 
+            but delivers the <strong>highest quality outputs</strong>.  
+            <b>Catalog-Guided</b> and <b>Feedback-Guided</b> modes offer balanced options, 
+            requiring 10–30 minutes of instructor involvement with moderate cost.
           </p>
         </div>
 
