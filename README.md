@@ -4,11 +4,14 @@ This is the repository that contains source code for the [website of Instruction
 
 If you find Nerfies useful for your work please cite:
 ```
-@article{instructioanl_agents
-  author    = {},
-  title     = {},
-  journal   = {},
-  year      = {},
+@misc{yao2025instructionalagentsllmagents,
+  title={Instructional Agents: LLM Agents on Automated Course Material Generation for Teaching Faculties},
+  author={Yao, Huaiyuan and Xu, Wanpeng and Turnau, Justin and Kellam, Nadia and Wei, Hua},
+  year={2025},
+  eprint={2508.19611},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2508.19611},
 }
 ```
 
