@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the [website of Instructional Agents](https://github.com/Hyan-Yao/instructional_agents_homepage).
+This is the repository that contains source code for the [website of Instructional Agents](https://hyan-yao.github.io/instructional_agents_homepage/).
 
 If you find Nerfies useful for your work please cite:
 ```
