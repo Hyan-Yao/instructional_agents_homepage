@@ -1,4 +1,4 @@
-# Nerfies
+# Instructional Agents
 
 This is the repository that contains source code for the [website of Instructional Agents](https://hyan-yao.github.io/instructional_agents_homepage/).
 
