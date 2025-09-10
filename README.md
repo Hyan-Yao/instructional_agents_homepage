@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [website of Instructional Agents](https://hyan-yao.github.io/instructional_agents_homepage/).
 
-If you find Nerfies useful for your work please cite:
+If you find this useful for your work please cite:
 ```
 @misc{yao2025instructionalagentsllmagents,
   title={Instructional Agents: LLM Agents on Automated Course Material Generation for Teaching Faculties},
